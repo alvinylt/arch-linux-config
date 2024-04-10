@@ -1,5 +1,6 @@
-# Configuration for Arch Linux
+# Arch Linux Configurations
 
-This repository documents the customised configuration files and installed packages for future reference.
+This repository documents the customised configuration files and installed
+packages for future reference.
 
-Last updated: 2024-03-29
+Last updated: 2024-04-10

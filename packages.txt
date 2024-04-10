@@ -6,6 +6,7 @@ amd-ucode
 ark
 base
 base-devel
+bind
 bitwarden
 bluedevil
 bluez
@@ -13,6 +14,7 @@ bluez-utils
 btrfs-progs
 chromium
 cloudflare-warp-bin
+digital
 discord
 dolphin
 dosfstools
@@ -21,33 +23,38 @@ emacs
 filelight
 firefox
 firefox-i18n-en-gb
+gdb
 ghc
 git
+gnu-netcat
 gparted
 grub
-grub-customizer
 gwenview
 ideapad-cm
+inetutils
 inkscape
 intellij-idea-ultimate-edition
 jre-openjdk
 kate
 kinfocenter
-kmix
 konsole
 libreoffice-fresh
 libreoffice-fresh-en-gb
 libva-mesa-driver
-linux
 linux-firmware
 linux-headers
+linux-lts
 mesa
+mkinitcpio-firmware
+motsognir
 nano
 neofetch
 networkmanager
 noto-fonts-cjk
 okular
 openssh
+p7zip
+pdftk
 pipewire-pulse
 plasma-browser-integration
 plasma-desktop
@@ -62,6 +69,7 @@ sddm-kcm
 signal-desktop
 spectacle
 sudo
+tcpdump
 telegram-desktop
 traceroute
 ttf-dejavu
@@ -72,6 +80,8 @@ unrar
 unzip
 vim
 visual-studio-code-bin
+whois
+wireshark-qt
 yay
 yay-debug
 zoom
@@ -79,14 +89,19 @@ zoom
 ## List of all AUR packages installed with pacman and yay
 ## pacman -Qmq
 
+aic94xx-firmware
+ast-firmware
 cloudflare-warp-bin
-cloudflare-warp-bin-debug
+digital
 ideapad-cm
 intellij-idea-ultimate-edition
+mkinitcpio-firmware
+motsognir
 pycharm-professional
 ttf-ms-fonts
+upd72020x-fw
 visual-studio-code-bin
-visual-studio-code-bin-debug
+wd719x-firmware
 yay
 yay-debug
 zoom
