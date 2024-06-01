@@ -3,4 +3,4 @@
 This repository documents the customised configuration files and installed
 packages for future reference.
 
-Last updated: 2024-04-10
+Last updated: 2024-06-01

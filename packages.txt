@@ -3,6 +3,7 @@
 
 adobe-source-han-sans-otc-fonts
 amd-ucode
+android-tools
 ark
 base
 base-devel
@@ -31,11 +32,13 @@ gparted
 grub
 gwenview
 ideapad-cm
+imagemagick
 inetutils
 inkscape
 intellij-idea-ultimate-edition
-jre-openjdk
+jdk-openjdk
 kate
+kde-gtk-config
 kinfocenter
 konsole
 libreoffice-fresh
@@ -46,12 +49,16 @@ linux-headers
 linux-lts
 mesa
 mkinitcpio-firmware
+mosquitto
 motsognir
+mqtt-explorer
 nano
 neofetch
 networkmanager
 noto-fonts-cjk
+numlockx
 okular
+opam
 openssh
 p7zip
 pdftk
@@ -63,6 +70,7 @@ plasma-nm
 plasma-pa
 plasma-systemmonitor
 pycharm-professional
+python-pyparsing
 qalculate-gtk
 rsync
 sddm-kcm
@@ -97,6 +105,7 @@ ideapad-cm
 intellij-idea-ultimate-edition
 mkinitcpio-firmware
 motsognir
+mqtt-explorer
 pycharm-professional
 ttf-ms-fonts
 upd72020x-fw
