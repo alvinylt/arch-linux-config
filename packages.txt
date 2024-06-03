@@ -1,7 +1,6 @@
 ## A list of all explicitly installed packages with pacman
 ## pacman -Qeq
 
-adobe-source-han-sans-otc-fonts
 amd-ucode
 android-tools
 ark
@@ -15,12 +14,12 @@ bluez-utils
 btrfs-progs
 chromium
 cloudflare-warp-bin
-digital
+code
+coqide
 discord
 dolphin
 dosfstools
 efibootmgr
-emacs
 filelight
 firefox
 firefox-i18n-en-gb
@@ -87,7 +86,6 @@ ufw
 unrar
 unzip
 vim
-visual-studio-code-bin
 whois
 wireshark-qt
 yay
@@ -100,7 +98,6 @@ zoom
 aic94xx-firmware
 ast-firmware
 cloudflare-warp-bin
-digital
 ideapad-cm
 intellij-idea-ultimate-edition
 mkinitcpio-firmware
@@ -109,7 +106,6 @@ mqtt-explorer
 pycharm-professional
 ttf-ms-fonts
 upd72020x-fw
-visual-studio-code-bin
 wd719x-firmware
 yay
 yay-debug
