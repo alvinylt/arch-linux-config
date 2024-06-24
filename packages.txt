@@ -3,6 +3,7 @@
 
 amd-ucode
 android-tools
+appmenu-gtk-module
 ark
 base
 base-devel
@@ -24,17 +25,17 @@ filelight
 firefox
 firefox-i18n-en-gb
 gdb
-ghc
+ghcup-hs-bin
 git
 gnu-netcat
 gparted
 grub
+gtksourceview3
 gwenview
 ideapad-cm
 imagemagick
 inetutils
 inkscape
-intellij-idea-ultimate-edition
 jdk-openjdk
 kate
 kde-gtk-config
@@ -47,10 +48,6 @@ linux-firmware
 linux-headers
 linux-lts
 mesa
-mkinitcpio-firmware
-mosquitto
-motsognir
-mqtt-explorer
 nano
 neofetch
 networkmanager
@@ -68,15 +65,13 @@ plasma-firewall
 plasma-nm
 plasma-pa
 plasma-systemmonitor
-pycharm-professional
 python-pyparsing
-qalculate-gtk
+qalculate-qt
 rsync
 sddm-kcm
 signal-desktop
 spectacle
 sudo
-tcpdump
 telegram-desktop
 traceroute
 ttf-dejavu
@@ -87,26 +82,15 @@ unrar
 unzip
 vim
 whois
-wireshark-qt
 yay
-yay-debug
 zoom
 
 ## List of all AUR packages installed with pacman and yay
 ## pacman -Qmq
 
-aic94xx-firmware
-ast-firmware
 cloudflare-warp-bin
+ghcup-hs-bin
 ideapad-cm
-intellij-idea-ultimate-edition
-mkinitcpio-firmware
-motsognir
-mqtt-explorer
-pycharm-professional
 ttf-ms-fonts
-upd72020x-fw
-wd719x-firmware
 yay
-yay-debug
 zoom
