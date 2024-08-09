@@ -15,7 +15,6 @@ bluez-utils
 btrfs-progs
 chromium
 cloudflare-warp-bin
-code
 coqide
 discord
 dolphin
@@ -36,17 +35,20 @@ ideapad-cm
 imagemagick
 inetutils
 inkscape
+isabelle
 jdk-openjdk
 kate
+kclock
 kde-gtk-config
 kinfocenter
 konsole
 libreoffice-fresh
 libreoffice-fresh-en-gb
 libva-mesa-driver
+linux
 linux-firmware
 linux-headers
-linux-lts
+man-db
 mesa
 nano
 neofetch
@@ -57,6 +59,7 @@ okular
 opam
 openssh
 p7zip
+papi
 pdftk
 pipewire-pulse
 plasma-browser-integration
@@ -65,6 +68,7 @@ plasma-firewall
 plasma-nm
 plasma-pa
 plasma-systemmonitor
+pycharm-professional
 python-pyparsing
 qalculate-qt
 rsync
@@ -81,6 +85,8 @@ ufw
 unrar
 unzip
 vim
+virtualbox
+visual-studio-code-bin
 whois
 yay
 zoom
@@ -91,6 +97,10 @@ zoom
 cloudflare-warp-bin
 ghcup-hs-bin
 ideapad-cm
+isabelle
+papi
+pycharm-professional
 ttf-ms-fonts
+visual-studio-code-bin
 yay
 zoom
