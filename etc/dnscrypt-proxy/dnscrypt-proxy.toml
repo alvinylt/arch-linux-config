@@ -1,0 +1,77 @@
+#
+# /etc/dnscrypt-proxy/dnscrypt-proxy.toml
+#
+
+# List of DNS resolvers to use
+server_names = ['cloudflare-1', 'cloudflare-2', 'cloudflare-3', 'cloudflare-4']
+
+# List of local address and ports to listen to
+listen_addresses = ['127.0.0.1:53', '[::1]:53']
+
+# Use servers reachable over IPv4
+ipv4_servers = true
+
+# Use servers reachable over IPv6
+ipv6_servers = false
+
+# Use servers implementing the DNS-over-HTTPS protocol
+doh_servers = true
+
+# Server must support DNS security extensions (DNSSEC)
+require_dnssec = true
+
+# Server must not log user queries (declarative)
+require_nolog = true
+
+# How long a DNS query will wait for a response, in milliseconds
+timeout = 5000
+
+# Keepalive for HTTP (HTTPS, HTTP/2, HTTP/3) queries, in seconds
+keepalive = 30
+
+# Log file for the application
+log_file = '/var/log/dnscrypt-proxy/dnscrypt-proxy.log'
+
+# Use the system logger
+use_syslog = true
+
+# Delay, in minutes, after which certificates are reloaded
+cert_refresh_delay = 240
+
+# Bootstrap resolvers for retrieving the initial resolvers list
+bootstrap_resolvers = ['1.1.1.1:53', '1.0.0.1:53']
+
+# Do not send queries to system DNS
+ignore_system_dns = true
+
+# Maximum time (in secs) to wait for network connectivity before proxy initialisation
+netprobe_timeout = 60
+
+# Check if the network is up by initialising a connection to the address
+netprobe_address = '1.1.1.1:53'
+
+# Respond to IPv6-related queries
+block_ipv6 = false
+
+# Immediately respond to A and AAAA queries for host names without a domain name
+block_unqualified = true
+
+# Immediately respond to queries for local zones instead of upstream resolvers
+block_undelegated = true
+
+# TTL for synthetic responses sent when a request has been blocked
+reject_ttl = 10
+
+# List of DNS resolvers
+[static]
+  [static.cloudflare-1]
+    stamp = 'sdns://AgMAAAAAAAAABzEuMS4xLjMABzEuMS4xLjMKL2Rucy1xdWVyeQ'
+
+  [static.cloudflare-2]
+    stamp = 'sdns://AgMAAAAAAAAABzEuMC4wLjMABzEuMC4wLjMKL2Rucy1xdWVyeQ'
+
+  [static.cloudflare-3]
+    stamp = 'sdns://AgMAAAAAAAAAAAAWWzI2MDY6NDcwMDo0NzAwOjoxMTEzXQovZG5zLXF1ZXJ5'
+
+  [static.cloudflare-4]
+    stamp = 'sdns://AgMAAAAAAAAAAAAWWzI2MDY6NDcwMDo0NzAwOjoxMDAzXQovZG5zLXF1ZXJ5'
