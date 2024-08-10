@@ -14,7 +14,9 @@ bluez
 bluez-utils
 btrfs-progs
 chromium
+chrony
 cloudflare-warp-bin
+cloudflared
 coqide
 discord
 dolphin
