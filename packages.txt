@@ -40,8 +40,6 @@ libreoffice-fresh
 libreoffice-fresh-en-gb
 linux
 linux-firmware
-linux-firmware-amdgpu
-linux-firmware-intel
 linux-headers
 man-db
 mesa
