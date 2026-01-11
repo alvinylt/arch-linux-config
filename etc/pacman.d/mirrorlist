@@ -2,4 +2,4 @@
 # /etc/pacman.d/mirrorlist
 #
 
-Server = https://mirror.aarnet.edu.au/pub/archlinux/$repo/os/$arch
+Server = https://ftp.fau.de/archlinux/$repo/os/$arch
